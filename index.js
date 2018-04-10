@@ -21,7 +21,7 @@ function nowServing (deliLine){
 
 name = deliLine.shift()
 
-return "Currently serving " + name + "."
+  return "Currently serving " + name + "."
 
 }
 
@@ -41,6 +41,6 @@ function currentLine (katzDeliLine){
   
 }
 
-return myString
+  return myString
 
 }
