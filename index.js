@@ -18,3 +18,9 @@ function nowServing (deliLine){
   return "There is nobody waiting to be served!"
   
 }
+
+name = deliLine.shift()
+
+return "Currently serving " + name + "."
+
+}
